@@ -491,6 +491,13 @@ pre code {
       margin-top: 2rem; /* Add top margin for more separation */
       margin-bottom: 2rem;
     }
+
+    .output {
+      
+      margin-bottom: 8rem;
+    }
+
+    
   
   section {
     margin: 0 5rem; /* Reduce margins */
