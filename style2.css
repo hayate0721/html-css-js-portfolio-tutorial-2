@@ -478,3 +478,57 @@ pre code {
     margin-bottom: 90px; /* Adds space between the steps and the output section */
 }
 
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    /* Adjust margin or padding for project description and technology used */
+    .project-description {
+      margin-top: 4rem;
+      margin-bottom: 4rem; /* Increase bottom margin to create more space */
+    }
+  
+    .technology-used {
+      margin-top: 2rem; /* Add top margin for more separation */
+      margin-bottom: 2rem;
+    }
+  
+  section {
+    margin: 0 5rem; /* Reduce margins */
+    padding: 0;
+  }
+
+  .section-container,
+  .about-containers,
+  .about-details-container {
+    margin: 0 1rem;
+  }
+
+  .details-container {
+    padding: 1rem;
+  }
+
+  .section__pic-container {
+    width: 100%; /* Make the container full-width */
+    height: auto;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+  }
+}
