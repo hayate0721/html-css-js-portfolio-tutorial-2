@@ -493,14 +493,13 @@ pre code {
     }
 
     .output {
-      
       margin-bottom: 8rem;
     }
 
     
   
   section {
-    margin: 0 5rem; /* Reduce margins */
+    margin: 0 2rem; /* Reduce margins */
     padding: 0;
   }
 
