@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Labeling with Amazon Rekognition</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Image Labeling with Amazon Rekognition</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Project Description</h2>
+            <p>This project involves analyzing images stored in an S3 bucket using Amazon Rekognition. The process includes detecting labels with their confidence levels and displaying these labels with bounding boxes around them.</p>
+        </section>
+
+        <section>
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Amazon Rekognition:</strong> For detecting labels in images.</li>
+                <li><strong>S3 Bucket:</strong> To store and retrieve images.</li>
+                <li><strong>IAM:</strong> For user authentication and access control.</li>
+                <li><strong>AWS CLI:</strong> For interacting with AWS services.</li>
+                <li><strong>Python:</strong> For the programming logic of extracting the image from S3 and running label detection.</li>
+            </ul>
+
+            <img
+            src="./assets/imageLabel.png"
+            alt="AWS diagram"
+            class="project-img"
+          />
+        </section>
+
+        <section class="project-steps">
+            <h2>Project Steps</h2>
+            <p>To complete this project, the following steps were taken:</p>
+            <ol>
+                <li>Uploaded the images to an Amazon S3 bucket. The images stored in the S3 bucket were used to analyze and generate labels.</li>
+                <li>Used Amazon Rekognition to analyze the selected image from the S3 bucket and detect labels with their confidence levels.</li>
+                <li>IAM was used to provide user authentication and access to the Amazon CLI on the system.</li>
+                <li>The AWS Command Line Interface (CLI) was used for interacting with AWS services.</li>
+                <li>A Python script was written to handle the programming logic for extracting the image from S3 and running the detect labels operation from Rekognition.</li>
+                <li>The output consisted of the specified labels along with their confidence levels.</li>
+                <li>A pop-up screen was generated with the image chosen from the S3 bucket, displaying bounding boxes around the detected labels.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Output</h2>
+            <p>The output consists of the detected labels along with their confidence levels. Additionally, a pop-up screen will be generated showing the chosen image from the S3 bucket with bounding boxes around the detected labels.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hayate Saito. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

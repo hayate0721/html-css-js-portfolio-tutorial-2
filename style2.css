@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 20vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -431,8 +431,50 @@ footer p {
   text-align: center;
 }
 
+
+
+/* Add padding to the header for spacing */
 header {
-  padding: 60px; /* Adjust this value as needed */
-  text-align: center;
+    padding: 60px; /* Adjust this value as needed */
+    text-align: center;
+}
+
+/* General section styling */
+section {
+    margin-bottom: 20px; /* General margin for all sections */
+}
+
+/* Specific margin for the space between Project Description and Technologies Used */
+.project-description {
+    margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+/* Optional: Add padding within each section */
+section p, section ul {
+    margin: 0; /* Removes default margins */
+    padding: 10px 0; /* Adds space within the section content, adjust as needed */
+}
+
+/* Code styling */
+pre code {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.project-img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Adjust the max height to avoid compression */
+    object-fit: contain; /* Ensure the image scales without distortion */
+    margin-top: 60px; /* Optional: add some space above the image */
+    margin-bottom: 45px; /* Optional: add some space under the image */
+}
+
+.project-steps {
+    margin-bottom: 90px; /* Adds space between the steps and the output section */
 }
 
