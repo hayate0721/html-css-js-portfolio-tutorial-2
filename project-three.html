@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Translation with Amazon Lex and Translate</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Chatbot Translation with Amazon Lex and Translate</h1>
+    </header>
+    <main>
+        <section class="project-description">
+            <h2>Project Description</h2>
+            <p>This project involves creating a chatbot using Amazon Lex, which can translate text provided by the user into a selected language using Amazon Translate. The chatbot captures user intents, extracts necessary information through slots, and delivers the translated text as output.</p>
+        </section>
+
+        <section class="technology-used">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Amazon Lex:</strong> For creating the chatbot and defining user intents.</li>
+                <li><strong>Amazon Translate:</strong> For translating text from one language to another.</li>
+                <li><strong>AWS Lambda:</strong> To execute the translation logic based on the data captured by Lex.</li>
+                <li><strong>AWS CLI:</strong> For interacting with AWS services during development.</li>
+                <li><strong>Python:</strong> For the programming logic that integrates Lex with Translate via Lambda.</li>
+            </ul>
+
+            <img
+            src="./assets/TranslateBot.png"
+            alt="Chatbot diagram"
+            class="project-img"
+          />
+        </section>
+
+        <section class="project-steps">
+            <h2>Project Steps</h2>
+            <p>To complete this project, the following steps were taken:</p>
+            <ol>
+                <li>Created a chatbot in Amazon Lex and defined clear user intents.</li>
+                <li>Specified utterances that users might say to interact with the bot.</li>
+                <li>Defined slots within the intents, such as "language" and "text," to capture the necessary information for translation.</li>
+                <li>Developed an AWS Lambda function to take the captured slot data and perform a translation using Amazon Translate.</li>
+                <li>Integrated the Lambda function with the Lex chatbot to deliver the translated text to the user.</li>
+                <li>Tested the chatbot to ensure it could accurately capture user input, translate the text, and return the correct output.</li>
+            </ol>
+        </section>
+
+        <section class="output">
+            <h2>Output</h2>
+            <p>The output consists of the translated text provided by the chatbot based on the user's input. The translation is performed in real-time using Amazon Translate, and the results are displayed back to the user via the chatbot interface.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hayate Saito. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
